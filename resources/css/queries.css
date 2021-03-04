@@ -1,0 +1,44 @@
+/* Small Phones: From 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+}
+
+/* Small phones to small tablets: From 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* Small tablet to big tablet: From 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size 18px; }
+    section {padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top 10px; }
+    .works-steps { margin-bottom: 40px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { width: 20px; }
+    .city-feature { font-size: 20px; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .plan-price { font-size: 250%; }
+
+/* Big tablet to 1200px (widths smaller than the 1140 px row): From 1024px to 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
